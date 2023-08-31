@@ -1,0 +1,247 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ @import url('https://fonts.cdnfonts.com/css/open-sans');
+ /*font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Light', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+ .breadcrumb-item+.breadcrumb-item:before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: ">";
+}
+.breadcrumb{
+    background-color: white;
+}
+.breadcrumb-item{
+    color: black !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.product-reference {
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    -webkit-letter-spacing: 0.025rem;
+    -moz-letter-spacing: 0.025rem;
+    -ms-letter-spacing: 0.025rem;
+    letter-spacing: 0.025rem;
+    display: inline-block;
+}
+.custom_font_h1{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #333333;
+    margin: 0px 0px 1rem;
+}
+p.products-section-title.custom_orange {
+    color: #333333;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: left;
+    font-weight: 700;
+}
+.highlighted-informations.text-center.p-2.no-variants.visible--desktop {
+    display: block;
+    height: 39px;
+    background-color: #ff6000;
+    padding: 9px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #ed6003;
+    border-radius: 0.2143rem;
+    transition: all .2s ease-in-out;
+}
+p.h3.product-title a {
+    display: block;
+    width: 100%;
+    height: 32px;
+    max-height: 3.8rem;
+    overflow: hidden;
+    margin: 5px auto;
+    line-height: 32px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #888;
+    text-transform: none;
+}
+p.h3.product-title a:hover {
+    color: #888;
+}
+.especial_container{
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    max-width: 1624px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.social-share-btn--product {
+    background-size: 70%;
+    background-color: unset;
+    transition: unset;
+}
+button.btn.btn-primary.add-to-cart.btn-lg.btn-block.btn-add-to-cart.js-add-to-cart {
+    background-color: #ff6000;
+}
+.header__container {
+    display: none;
+}
+
+.visible-header {
+    display: block;
+}
+.container.header-top.d--flex-between.u-a-i-c {
+    max-width: 1624px;
+}
+.texto_plano{
+    font-weight: 700;
+    text-align: left;
+}
+@media (max-width:992.98px) {
+    .hamburger-icon{
+        display: none !important;
+    }    
+}
+
+.quick-view {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    text-transform: none;
+}
+.card.card-product {
+    border: none;
+}
+
+.card.card-product:hover {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.breadcrumb-item:hover{
+    color: rgb(255, 96, 0) !important;
+}
+.breadcrumb-item.active{
+    color: rgb(255, 96, 0) !important;
+}
+.breadcrumb-item a:hover{
+    color: rgb(255, 96, 0) !important;
+}
+.breadcrumb-item a{
+    color: black !important;
+}
+body {
+    background-color: white;
+    color: rgb(51, 51, 51);
+    font-family: Open Sans, open-sans, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+.product-additional-info {
+    height: 48px;
+    border: 1px solid #CCCCCC;
+    padding: 0 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.product-flag{
+    background-color: #bf0019;
+    font-size: 15px;
+}
+.product-thumb {
+    width: 64px;
+    height: 64px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.125rem solid rgb(204, 204, 204);
+    margin-right: 1rem;
+    margin-bottom: 0px;
+  }
+  .product-thumb:hover{
+    width: 64px;
+    height: 64px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.125rem solid rgb(51, 51, 51);
+    margin-right: 1rem;
+    margin-bottom: 0px;
+  }
+  .product-thumb.slick-current {
+    width: 64px;
+    height: 64px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.125rem solid rgb(51, 51, 51);
+    margin-right: 1rem;
+    margin-bottom: 0px;
+  }
+  .images-container {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-sharing span {
+    display: none;
+}
+p.products-section-title {
+    width: 100%;
+    max-height: 90px;
+    margin: 16px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: normal !important;
+}
+span.price {
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0.5rem;
+    font-size: 1.53rem;
+    font-weight: 700;
+    color: #444;
+    font-family: Open Sans, open-sans, sans-serif;
+}
+.custom-value {
+    background: red;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 15px 0 0px;
+}
+
+p.custom_p {
+    color: white;
+    padding: 0px 15px;
+    font-weight: 800;
+}
+@media (min-width: 1200px) {
+    section#wrapper {
+        max-width: 1624px;
+        padding: 0 3rem;
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <name>CSV Product Import</name>
+    <version>1.0.0</version>
+    <author>Xavier Moreno</author>
+    <tab>administration</tab>
+    <displayName><![CDATA[CSV Product Import]]></displayName>
+    <description><![CDATA[Import products using CSV files.]]></description>
+    <ps_version_min>1.7.0.0</ps_version_min>
+    <ps_version_max>1.7.99.99</ps_version_max>
+</module>
